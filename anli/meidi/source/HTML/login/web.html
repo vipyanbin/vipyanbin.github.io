@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>美的，中国家电行业领导者</title>
+    <link rel="shortcut icon" href="">
+    <link combofile="common/global.html" rel="stylesheet" href="index.css" />
+    <link combofile="mall/login.html" rel="stylesheet" href="iiii.css" />
+</head>
+<body class="login_page">
+<div class="header">
+    <div class="logo"><a href="http://mall.midea.com/"></a></div>
+</div>
+<div class="login_container">
+    <div class="login_main_wrap clear">
+        <div class="login_main_col1">
+            <img src="lift.png" alt="美的商城"/>        </div>
+        <div class="login_main_col2">
+            <div class="login_wrap js_login_wrap">
+
+                <div class="login">
+                    <div class="login_way">
+                        <div class="login_way_tit">使用合作账号登录</div>
+                        <ul class="login_way_list clear">
+                            <li class="login_way_item login_way_qq"><a href="javascript:;" title="QQ登录"><i class="ico">QQ登录</i></a></li>
+                            <li class="login_way_item login_way_wx"><a href="javascript:;" title="微信登录"><i class="ico">微信登录</i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="login_type login_type1">
+
+                        <div class="login_form ap_form">
+                            <form action="//mall.midea.com/login/login_with_passwd" method="post">
+                            <div class="login_form_tit">账号密码登录</div>
+                            <div class="login_form_row">
+                                <div class="login_form_label">手机号</div>
+                                <div class="login_form_cnt">
+                                    <input type="text" class="js_telephone" name="mobile" maxlength="13" placeholder="手机号"/>
+                                </div>
+                                <div class="login_from_error_tips js_telephone_tips">
+                                    <span>请输入正确的手机号</span>
+                                </div>
+                            </div>
+                            <div class="login_form_row">
+                                <div class="login_form_label">密码</div>
+                                <div class="login_form_cnt">
+                                    <input type="password" class="js_password" maxlength="20" placeholder="密码" onselectstart="return false" onpaste="return false" placeholder="密码" />
+                                    <input class="js_password_txt" type="hidden" name="passwd" />
+                                    <input class="js_rurl_txt" type="hidden" name="rurl"/>
+                                </div>
+                                <div class="login_from_error_tips js_password_tips">
+                                    <span>请输入用户密码</span>
+                                </div>
+                            </div>
+                            <div class="login_form_row">
+                                <div class="login_form_cnt">
+                                    <a class="login_btn" href="javascript:;">登 录</a>
+                                </div>
+                            </div>
+                            <div class="login_links clear">
+                                <a href="javascript:;" class="msg_login">短信验证登录</a> <span class="line"> | </span>
+                                <a href="javascript:;" class="reg">注册</a>  <a href="https://mall.midea.com/login/find_password" class="forget_pwd">找回密码</a>
+                            </div>
+                            </form>
+                        </div>
+
+
+                        <div class="login_form mobile_form">
+                            <form action="//mall.midea.com/login/create_member_by_mobile" method="post">
+                            <div class="login_form_tit">短信验证码登录</div>
+                            <div class="login_form_row ">
+                                <div class="login_form_label">手机号</div>
+                                <div class="login_form_cnt">
+                                    <input type="text" class="js_telephone" name="mobile" maxlength="13" placeholder="手机号" />
+                                </div>
+                                <div class="login_from_error_tips js_telephone_tips">
+                                    <span>请输入正确的手机号</span>
+                                </div>
+                            </div>
+                            <div class="login_form_row">
+                                <div class="login_form_label">短信验证码</div>
+                                <div class="login_form_cnt">
+                                    <input type="text" class="js_verifycode" name="verifycode" maxlength="6" placeholder="短信验证码" />
+                                    <a class="login_form_cnt_extra login_get_code" href="javascript:;">获取验证码</a>
+
+                                    <input class="js_rurl_txt" type="hidden" name="rurl"/>
+                                </div>
+                                <div class="login_from_error_tips js_verifycode_tips">
+                                    <span>短信验证码错误</span>
+                                </div>
+                            </div>
+                            <div class="login_form_row">
+                                <div class="login_form_cnt">
+                                    <a class="login_btn" href="javascript:;">登 录</a>
+                                </div>
+                            </div>
+                            <div class="login_links clear">
+                                <a href="javascript:;" class="has_account">账号密码登录</a> <span class="line"> | </span>
+                                <a href="javascript:;" class="reg">注册</a>  <a href="https://mall.midea.com/login/find_password" class="forget_pwd">找回密码</a>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="register hide">
+                    <div class="login_form reg_form">
+                        <form action="//mall.midea.com/login/regist_with_passwd" method="post">
+                        <div class="login_form_tit">使用手机号注册</div>
+                        <div class="login_form_row">
+                            <div class="login_form_label">手机号</div>
+                            <div class="login_form_cnt">
+                                <input type="text" class="js_telephone" name="mobile" maxlength="13" placeholder="手机号"/>
+                            </div>
+                            <div class="login_from_error_tips js_telephone_tips">
+                                <span>请输入写正确的手机号</span>
+                            </div>
+                        </div>
+                        <div class="login_form_row">
+                            <div class="login_form_label">短信验证码</div>
+                            <div class="login_form_cnt">
+                                <input type="text" class="js_verifycode" name="verifycode" maxlength="6" placeholder="短信验证码" />
+                                <a class="login_form_cnt_extra login_get_code" href="javascript:;">获取验证码</a>
+                            </div>
+                            <div class="login_from_error_tips js_verifycode_tips">
+                                <span>短信验证码错误</span>
+                            </div>
+                        </div>
+                        <div class="login_form_row">
+                            <div class="login_form_label">密码</div>
+                            <div class="login_form_cnt">
+                                <input type="password" class="js_password" maxlength="20" placeholder="密码" onselectstart="return false" onpaste="return false" placeholder="密码" />
+                                <input class="js_password_txt" type="hidden" name="passwd" />
+                            </div>
+                            <div class="login_from_error_tips js_password_tips">
+                                <span>密码格式不正确</span>
+                            </div>
+                        </div>
+                        <div class="login_form_row">
+                            <div class="login_form_label">确认密码</div>
+                            <div class="login_form_cnt">
+                                <input type="password" class="js_password_confirm" maxlength="20" onselectstart="return false" onpaste="return false" placeholder="确认密码" />
+                                <input class="js_rurl_txt" type="hidden" name="rurl"/>
+                            </div>
+                            <div class="login_from_error_tips js_password_confirm_tips">
+                                <span>两次密码不一致</span>
+                            </div>
+                        </div>
+                        <div class="login_form_row">
+                            <div class="login_from_tips">
+                                <span>密码由6-20位英文字母、数字或者符号组成</span>
+                            </div>
+                        </div>
+                        <div class="login_form_row">
+                            <a class="login_btn" href="javascript:;">注册</a>
+                        </div>
+                        <div class="login_links clear">
+                            <a href="javascript:;" class="has_account">已有账号直接登录</a>  <a href="javascript:;" class="other_login">推荐第三方登录</a>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/html" id="modImagecodeTmpl">
+<div class="mod_imagecode hide js_img_code_wrap">
+    <div class="mod_imagecode_hd">
+        <div class="word">提示</div>
+        <i class="icon_atom icon_close js_image_code_cancel"></i>
+    </div>
+    <div class="mod_imagecode_bd">
+        <div class="title">
+<!--            由于您的验证太频繁，<br>-->
+            请输入图形验证码
+        </div>
+        <div class="row_input">
+            <input class="img_code js_img_code" maxlength="4" placeholder="图形验证码"/>
+        </div>
+        <div class="row_img">
+            <div class="img_code_wrap"><img class="js_img_code_place" height="40" width="126" src="//st.midea.com/h5/img/my/code_img.png"/></div>
+            <div class="re_code js_reCode">换一张</div>
+        </div>
+        <div class="row_button">
+            <button class="cancel_btn js_image_code_cancel">取 消</button>
+            <button class="continue_btn js_image_codeConfirm">继 续</button>
+        </div>
+    </div>
+</div>
+<div class="mask js_img_code_mask hide"></div>
+</script>
+
+<script type="text/javascript">
+(function(global){
+var g=[[]],d='//st.midea.com',m={},blankjs="",grays={},mdebug = location.href.indexOf("mdebug=1")!=-1;
+m.alias = {};
+var a={},p={},c=[];
+g["1"]=["\/js\/version\/201409\/jquery.201409051736.js","\/js\/version\/201509\/md.auth.validate.201509071812.js","\/js\/version\/201509\/md.my.web_login.201509061916.js","\/js\/version\/201403\/md5.201403071107.js","\/js\/version\/201309\/url.201309101641.js"];
+c = [['jquery',1,0],['md.auth.validate',1,1],['md.my.web_login',1,2],['md5',1,3],['url',1,4]];
+if(typeof(JSON)!="undefined" && window.localStorage){
+	for(var key in localStorage){
+		if(/^_m_/.test(key)){
+			var store = JSON.parse(localStorage.getItem(key));
+        	var i = key.substr(3);
+        	if((new Date()).getTime()>store.cacheTime){
+	    		continue;
+	    	}
+	    	var _m=getModuleMap(i);
+	    	if(!_m || _m.group==0){continue;}
+	    	var curPath=g[_m.group][_m.groupid];
+	    	if((d+curPath)==store.path){
+				g[0].push(curPath);
+				g[_m.group][_m.groupid]=blankjs;
+				c[_m.index]=[_m.id,0,g[0].length-1];
+			}
+		}
+	}
+	}
+function getModuleMap(id){
+	for(var i=0;i<c.length;i++){
+		if(c[i][0]==id){
+			return {"id":id,"index":i,"group":c[i][1],"groupid":c[i][2]};
+		}
+	}
+	return "";
+}
+function getCombUrl(list){
+	var a=[];
+	for(var i=0;i<list.length;i++){
+		if(list[i]){
+			a.push(list[i]);
+		}
+	}
+	return a.length>1?(d+"/??"+a.join(",")):(d+a[0]);
+}
+
+for(var i=0;i<c.length;i++){
+	var surl=d+g[c[i][1]][c[i][2]];
+	var furl=getCombUrl(g[c[i][1]]);//合并包地址
+		a[c[i][0]]=surl;
+		p[c[i][0]]=(c[i][1]==0)?surl:furl;
+}
+
+m.alias=mdebug?a:p;
+m.moduleURI=a;
+
+
+global._moduleConfig = m;
+
+function gray(m){
+	}
+
+})(this);
+
+</script>
+<script type="text/javascript">if(typeof JSON!=="object"){JSON={};}
+(function(){function f(n){return n<10?"0"+n:n;}
+if(typeof Date.prototype.toJSON!=="function"){Date.prototype.toJSON=function(key){return isFinite(this.valueOf())?this.getUTCFullYear()+"-"+f(this.getUTCMonth()+1)+"-"+f(this.getUTCDate())+"T"+f(this.getUTCHours())+":"+f(this.getUTCMinutes())+":"+f(this.getUTCSeconds())+"Z":null;};String.prototype.toJSON=Number.prototype.toJSON=Boolean.prototype.toJSON=function(key){return this.valueOf();};}
+var cx=/[\u0000\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,escapable=/[\\\"\x00-\x1f\x7f-\x9f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,gap,indent,meta={"\b":"\\b","\t":"\\t","\n":"\\n","\f":"\\f","\r":"\\r",'"':'\\"',"\\":"\\\\"},rep;function quote(string){escapable.lastIndex=0;return escapable.test(string)?'"'+string.replace(escapable,function(a){var c=meta[a];return typeof c==="string"?c:"\\u"+("0000"+a.charCodeAt(0).toString(16)).slice(-4);})+'"':'"'+string+'"';}
+function str(key,holder){var i,k,v,length,mind=gap,partial,value=holder[key];if(value&&typeof value==="object"&&typeof value.toJSON==="function"){value=value.toJSON(key);}
+if(typeof rep==="function"){value=rep.call(holder,key,value);}
+switch(typeof value){case"string":return quote(value);case"number":return isFinite(value)?String(value):"null";case"boolean":case"null":return String(value);case"object":if(!value){return"null";}
+gap+=indent;partial=[];if(Object.prototype.toString.apply(value)==="[object Array]"){length=value.length;for(i=0;i<length;i+=1){partial[i]=str(i,value)||"null";}
+v=partial.length===0?"[]":gap?"[\n"+gap+partial.join(",\n"+gap)+"\n"+mind+"]":"["+partial.join(",")+"]";gap=mind;return v;}
+if(rep&&typeof rep==="object"){length=rep.length;for(i=0;i<length;i+=1){if(typeof rep[i]==="string"){k=rep[i];v=str(k,value);if(v){partial.push(quote(k)+(gap?": ":":")+v);}}}}else{for(k in value){if(Object.prototype.hasOwnProperty.call(value,k)){v=str(k,value);if(v){partial.push(quote(k)+(gap?": ":":")+v);}}}}
+v=partial.length===0?"{}":gap?"{\n"+gap+partial.join(",\n"+gap)+"\n"+mind+"}":"{"+partial.join(",")+"}";gap=mind;return v;}}
+if(typeof JSON.stringify!=="function"){JSON.stringify=function(value,replacer,space){var i;gap="";indent="";if(typeof space==="number"){for(i=0;i<space;i+=1){indent+=" ";}}else{if(typeof space==="string"){indent=space;}}
+rep=replacer;if(replacer&&typeof replacer!=="function"&&(typeof replacer!=="object"||typeof replacer.length!=="number")){throw new Error("JSON.stringify");}
+return str("",{"":value});};}
+if(typeof JSON.parse!=="function"){JSON.parse=function(text,reviver){var j;function walk(holder,key){var k,v,value=holder[key];if(value&&typeof value==="object"){for(k in value){if(Object.prototype.hasOwnProperty.call(value,k)){v=walk(value,k);if(v!==undefined){value[k]=v;}else{delete value[k];}}}}
+return reviver.call(holder,key,value);}
+text=String(text);cx.lastIndex=0;if(cx.test(text)){text=text.replace(cx,function(a){return"\\u"+("0000"+a.charCodeAt(0).toString(16)).slice(-4);});}
+if(/^[\],:{}\s]*$/.test(text.replace(/\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})/g,"@").replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g,"]").replace(/(?:^|:|,)(?:\s*\[)+/g,""))){j=eval("("+text+")");return typeof reviver==="function"?walk({"":j},""):j;}
+throw new SyntaxError("JSON.parse");};}}());var modulejs,require,define;(function(global){var mod,cfg,_modulejs,_define,_require;var version="1.0.2";var isCache=true;var cacheTime=60*60*24*30*1000;cfg={debug:location.href.indexOf("mdebug=1")!=-1?true:false,alias:{},cssAlias:{},moduleURI:{},vars:{},uris:{},modules:{},callback:[],actModules:{},cacheLoad:{},cacheDel:{},deps:{},events:{},timing:{}};_modulejs.config=config;config(global["_moduleConfig"]?global._moduleConfig:cfg);global["_moduleConfig"]=cfg;require=_require;define=_define;modulejs=_modulejs;on("module_ready",function(id,fromeCache){cfg.callback=cleanArray(cfg.callback);var init=cfg.callback,l=init.length;for(var i=0;i<l;i++){if(init[i]&&checkDeps(init[i].dependencies)){var cb=init[i].factory;var deps=init[i].dependencies;var mods=[];var allDeps=[];var m;for(var j=0;j<deps.length;j++){var m=_require(deps[j]);allDeps.push(m.dependencies);mods.push(m);}
+debug("callback_is_run=start",cb.toString(),cfg.callback);init[i]=null;cb.apply(null,mods);cfg.debug&&emit("callback_is_run",cb.toString().replace(/[\r\n]/g,""));if(window.moduleReady&&moduleReady.length>0){moduleReady.shift()();}}}});on("module_require",function(id){cfg.actModules[id]=cfg.actModules[id]?(cfg.actModules[id]+1):1;});on("module_cacheDel",function(id){cfg.cacheDel[id]=1;});on("cache_load",function(m){});on("module_loss_alias",function(id){console.error("module_loss_alias:"+id);});var cacheNow=new Date();_loadCache();cfg.timing['loadcache']=new Date()-cacheNow;function _loadCache(){if(!_useCache()){return false;}
+localStorage.removeItem("_modules");for(var key in localStorage){if(/^_m_/.test(key)){var store=JSON.parse(localStorage.getItem(key));var i=key.substr(3);var now=(new Date()).getTime();var oneDay=24*3600*1000;if(cfg.alias[i]){if(_getModuleURI(i)!=store.path||store.deps.join(",").indexOf("{")>-1){emit("module_cacheDel",i);localStorage.removeItem(key);continue;}}else{if(now>store.cacheTime){emit("module_cacheDel",i);localStorage.removeItem(key);continue;}}
+if(store.cacheTime-now<oneDay){store.cacheTime=(new Date()).getTime()+cacheTime;try{localStorage.removeItem(key);localStorage.setItem(key,JSON.stringify(store));}catch(e){}}
+cfg.cacheLoad[store.id]=store;emit("cache_load",store);}}}
+function _getModuleURI(id){return cfg.moduleURI[id]?cfg.moduleURI[id]:cfg.alias[id];}
+function _useCache(id,deps,factory){if(typeof(JSON)=="undefined"){return false;}
+if(!isCache){return false;}
+if(!(JSON&&window.localStorage)){return false;}
+if(cfg.debug){return false;}
+var agent=navigator.userAgent.toLowerCase();if(agent.indexOf("msie")>0){var m=agent.match(/msie\s([\d\.]+);/i);if(m&&m.length>=2&&parseInt(m[1])<=6){return false;}}
+if(id&&id.indexOf("_")==0){return false;}
+if(factory&&factory.toString().indexOf("_cacheThisModule_")<0){return false;}
+return true;}
+function _cacheModule(id,deps,factory){var key="_m_"+id;var _t=localStorage.getItem(key);var ms=_t?JSON.parse(_t):{};ms={"id":id,"deps":deps,"factory":factory.toString(),"path":_getModuleURI(id),"cacheTime":(new Date()).getTime()+cacheTime};try{localStorage.removeItem(key);localStorage.setItem(key,JSON.stringify(ms));emit("module_cached",id);}catch(e){}}
+function _define(id,deps,factory){if(arguments.length===2){factory=deps;deps=null;}
+deps=isType("Array",deps)?deps:(deps?[deps]:[]);if(isType("Function",factory)){var _deps=parseDependencies(factory.toString());}
+_useCache(id,deps,factory)&&_cacheModule(id,deps,factory);deps=mergeArray(deps,_deps);var mod=new Module(id);mod.dependencies=deps||[];mod.factory=factory;if(id=="_init"){cfg.callback.push(mod);}else{cfg.modules[id]=mod;}
+emit("module_ready",id);}
+function _require(id){id=parseVars(id);var module=cfg.modules[id];emit("module_require",id);if(!module){emit("module_error",id);return null}
+if(module.exports){return module.exports;}
+var now=new Date();var factory=module.factory;var exports=isType("Function",factory)?factory(require,module.exports={},module):factory;module.exports=exports===undefined?module.exports:exports;cfg.timing[id]=new Date()-now;return module.exports;}
+_require.async=_modulejs;_require.css=function(path){path=cfg.cssAlias&&cfg.cssAlias[path]?cfg.cssAlias[path]:path;if(!path){return;}
+var l;if(!window["_loadCss"]||window["_loadCss"].indexOf(path)<0){l=document.createElement('link');l.setAttribute('type','text/css');l.setAttribute('rel','stylesheet');l.setAttribute('href',path);l.setAttribute("id","loadCss"+Math.random());document.getElementsByTagName("head")[0].appendChild(l);window["_loadCss"]?(window["_loadCss"]+="|"+path):(window["_loadCss"]="|"+path);}
+l&&(typeof callback=="function")&&(l.onload=callback);return true;}
+function _modulejs(deps,factory){_define("_init",deps,factory);}
+function checkDeps(deps){var list={},flag=true;for(var i=0;i<deps.length;i++)list[deps[i]]=1;getDesps(deps,list);for(var i in list){if(!cfg.modules[i]){loadModule(i);flag=false;}}
+return flag;function getDesps(deps,list){for(var i=0;i<deps.length;i++){if(!list[deps[i]]){list[deps[i]]=1;}
+if(cfg.modules[deps[i]]&&list[deps[i]]!=2){list[deps[i]]=2;getDesps(cfg.modules[deps[i]].dependencies,list);}}}}
+function parseVars(id){var VARS_RE=/{([^{]+)}/g
+var vars=cfg.vars
+if(vars&&id.indexOf("{")>-1){id=id.replace(VARS_RE,function(m,key){return isType("String",vars[key])?vars[key]:key})}
+return id}
+function mergeObject(a,b){for(var i in b){if(!b.hasOwnProperty(i)){continue;}
+if(!a[i]){a[i]=b[i];}else if(Object.prototype.toString.call(b[i])=="[object Object]"){mergeObject(a[i],b[i]);}else{a[i]=b[i];}}
+return a;}
+function config(obj){return cfg=mergeObject(cfg,obj);}
+function Module(id){this.id=id;this.dependencies=[];this.exports=null;this.uri="";}
+function loadModule(id){var m;if(m=cfg.cacheLoad[id]){return _define(m.id,m.deps,eval("a = "+m.factory));}
+if(cfg.modules[id]){emit("module_ready",id);return;}
+var url=cfg.alias[id]?cfg.alias[id]:"";if(!url){emit("module_loss_alias",id);return;}
+if(cfg.uris[url]){return;}
+cfg.uris[url]=1;var head=document.getElementsByTagName("head")[0]||document.documentElement;var baseElement=head.getElementsByTagName("base")[0];var node=document.createElement("script");node.charset="utf-8";node.async=true;node.src=url;var handler=function(){var callee=arguments.callee
+cfg.timing[callee.uri]=new Date()-callee.time;};handler.time=new Date();handler.uri=url;node.onload=handler;baseElement?head.insertBefore(node,baseElement):head.appendChild(node);cfg.debug&&emit("file_loading",url);}
+function on(name,cb){var cbs=cfg.events[name];if(!cbs){cbs=cfg.events[name]=[];}
+cbs.push(cb);}
+function emit(name,evt){debug(name,evt);if(!cfg.events[name]||cfg.events[name].length==0){return;}
+for(var i=0,l=cfg.events[name].length;i<l;i++){cfg.events[name][i](evt);}
+if(name==='error'){delete cfg.events[name];}}
+function cleanArray(a){var n=[];for(var i=0;i<a.length;i++){a[i]&&n.push(a[i]);}
+return n;}
+function mergeArray(a,b){for(var i=0;i<b.length;i++){((","+a+",").indexOf(","+b[i]+",")<0)&&a.push(b[i]);}
+return a;}
+function isType(type,obj){return Object.prototype.toString.call(obj)==="[object "+type+"]"}
+function parseDependencies(code){var commentRegExp=/(\/\*([\s\S]*?)\*\/|([^:]|^)\/\/(.*)$)/mg;var cjsRequireRegExp=/[^.]\s*require\s*\(\s*["']([^'"\s]+)["']\s*\)/g;var ret=[];code.replace(commentRegExp,"").replace(cjsRequireRegExp,function(match,dep){dep&&ret.push(parseVars(dep));})
+return ret;}
+function debug(){if(!cfg.debug){return true;}
+var a=[],l=arguments.length;for(var i=0;i<l;i++){a.push(arguments[i]);}
+try{console.log.apply(console,a);}catch(e){}}}(this));</script>
+<script type="text/javascript">
+var _speedMarkModule = new Date();
+modulejs('md.my.web_login', function(m){
+   m.init(); 
+});</script>
+
+<script>
+(function () {
+    var _footConfig = {
+        pagePV: false
+    };
+    if (window.footConfig) {
+        for (var key in _footConfig) {
+            if (footConfig[key]) {
+                _footConfig[key] = footConfig[key];
+            }
+        }
+    }
+
+    function JsonToStr(o) {
+        if (o == undefined) {
+            return "";
+        }
+        if (window.JSON && window.JSON.stringify) {
+            return window.JSON.stringify(o);
+        } else {
+            var r = [];
+            if (typeof o == "string") return "\"" + o.replace(/([\"\\])/g, "\\$1").replace(/(\n)/g, "\\n").replace(/(\r)/g, "\\r").replace(/(\t)/g, "\\t") + "\"";
+            if (typeof o == "object") {
+                if (!o.sort) {
+                    for (var i in o)
+                        r.push("\"" + i + "\":" + JsonToStr(o[i]));
+                    if (!!document.all && !/^\n?function\s*toString\(\)\s*\{\n?\s*\[native code\]\n?\s*\}\n?\s*$/.test(o.toString)) {
+                        r.push("toString:" + o.toString.toString());
+                    }
+                    r = "{" + r.join() + "}"
+                } else {
+                    for (var i = 0; i < o.length; i++)
+                        r.push(JsonToStr(o[i]))
+                    r = "[" + r.join() + "]";
+                }
+                return r;
+            }
+            return o.toString().replace(/\"\:/g, '":""');
+        }
+    }
+
+    function getCookie(name) {
+        var reg = new RegExp("(^| )" + name + "(?:=([^;]*))?(;|$)"),
+                val = document.cookie.match(reg);
+        return val ? (val[2] ? unescape(val[2]) : "") : null;
+    }
+
+    function setCookie(name, value, expires, path, domain, secure) {
+        var exp = new Date(),
+                expires = arguments[2] || null,
+                path = arguments[3] || "/",
+                domain = arguments[4] || null,
+                secure = arguments[5] || false;
+        expires ? exp.setMinutes(exp.getMinutes() + parseInt(expires)) : "";
+        document.cookie = name + '=' + encodeURIComponent(value) + (expires ? ';expires=' + exp.toGMTString() : '') + (path ? ';path=' + path : '') + (domain ? ';domain=' + domain : '') + (secure ? ';secure' : '');
+    }
+
+    function getUrlParam(name, url) {
+        //参数：变量名，url为空则表从当前页面的url中取
+        var u = arguments[1] || window.location.search,
+                reg = new RegExp("(^|&)" + name + "=([^#&]*)(&|#|$)"),
+                r = u.substr(u.indexOf("\?") + 1).match(reg);
+        return r != null ? r[2] : "";
+    }
+
+    function $loadUrl(o) {
+        o.element = o.element || 'script';
+        var el = document.createElement(o.element);
+        el.charset = o.charset || 'utf-8';
+        o.onBeforeSend && o.onBeforeSend(el);//发请求之前调用的函数
+        el.onload = el.onreadystatechange = function () {
+            if (/loaded|complete/i.test(this.readyState) || navigator.userAgent.toLowerCase().indexOf("msie") == -1) {
+                o.onload && o.onload();//
+                clear();
+            }
+        };
+        el.onerror = function () {
+            clear();
+        };
+        el.src = o.url;
+        document.getElementsByTagName('head')[0].appendChild(el);
+
+        function clear() {
+            if (!el) {
+                return;
+            }
+            el.onload = el.onreadystatechange = el.onerror = null;
+            el.parentNode && (el.parentNode.removeChild(el));
+            el = null;
+        }
+    }
+
+    function updateEnv(data) {
+        for (var envKey in data) {
+            if (envKey == 'channel') {
+                // APP环境的固定场景值，不需要再改变
+                if (env[envKey] == 4 || env[envKey] == 5) {
+                    continue;
+                }
+            }
+
+            if (data[envKey]) {
+                env[envKey] = data[envKey];
+            }
+        }
+
+        setCookie('env', JsonToStr(env), 525600, '', 'midea.com');
+    }
+
+    function reportRd(opt) {
+        var pageMess = window.pageMess || {};
+        var oParams = {
+                    curl: location.href,
+                    rurl: document.referrer,
+                    serviceid: 10,
+                    mtag: '',
+                    skuid: pageMess['skuid'] || '',
+                    distributorid: pageMess['distributorid'] || '',
+                    dealid: pageMess['dealid'] || '',
+                    sellerid: pageMess['sellerid'] || '',
+                    supplierid: pageMess['supplierid'] || ''
+                },
+                arrParams = [];
+
+        if(location.href.indexOf('.midea.com/detail/index') > -1 && !oParams.skuid){
+            oParams.skuid = getUrlParam('id');
+        }
+
+        for (var key in oParams) {
+            var v = opt[key];
+            if (v) {
+                oParams[key] = v;
+            }
+
+            arrParams.push(key + '=' + encodeURIComponent(oParams[key]));
+        }
+
+        $loadUrl({
+            url: '//w.midea.com/common/log/rd?' + arrParams.join('&')
+        });
+    }
+
+    // 初始化env对象
+    var env = getCookie('env');
+    try {
+        if (!env) {
+            env = {};
+        } else {
+            if (window.JSON && window.JSON.parse) {
+                  env = window.JSON.parse(env);
+            } else {
+                env = eval('(' + env + ')');
+            }
+        }
+    } catch (e) {
+        env = {};
+    }
+
+    // 收集场景信息
+    var ua = navigator.userAgent.toLowerCase(),
+        channel = 3,   //  channel 1 微信，2 移动web，3 PC，4 美的商城APP，5 美家APP
+        regsrc = getUrlParam('regsrc') || '';
+
+    // mtag统计
+    var mtag = getUrlParam('mtag') || '',
+            allTags = getCookie('mtag') || '';
+    if (mtag && (/^[1-4]\d{4}\.\d+\.\d+$/.test(mtag))) {
+        var cvs = allTags.split(';'),
+                isChange = false;
+        for (var i = 0; i < cvs.length; i++) {
+            var v = cvs[i];
+            if (v.split('.')[0].split('')[0] == mtag.split('.')[0].split('')[0]) {
+                cvs[i] = mtag;
+                isChange = true;
+                break;
+            }
+        }
+
+        if (!isChange) {
+            cvs[cvs.length] = mtag;
+        }
+        reportRd({mtag: mtag});
+        allTags = cvs.join(';');
+        setCookie('mtag', allTags, 10080, '', 'midea.com');
+    } else {
+        reportRd({mtag: ''});
+    }
+
+    updateEnv({
+        channel: channel,
+        regsrc: regsrc
+    });
+
+    // 设置MachineKey
+    var mk = getCookie('midea_mk');
+    if(!mk || mk.length != 32){
+        $loadUrl({url: '//w.midea.com/common/log/mk'});
+    }
+
+    //百度统计
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F94d2fcdc25bf11213329895f51da83d0' type='text/javascript'%3E%3C/script%3E"));
+
+    document.body.addEventListener("click", function (e) {
+        var evt = e || window.event,
+                src = evt.srcElement || evt.target,
+                mtag;
+
+        while (!mtag && src !== document.body) {
+            mtag = src.getAttribute ? src.getAttribute('data-mtag') : '';
+            src = src.parentNode;
+        }
+
+        if (mtag) {
+            reportRd({mtag: mtag});
+        }
+    });
+})();
+</script>
+<div class="copyright">
+    Copyright &copy; 1968-2016 美的集团股份有限公司 粤ICP备09215446号
+</div>
+</body>
+</html>

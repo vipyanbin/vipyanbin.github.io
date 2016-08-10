@@ -1,0 +1,28 @@
+.header{
+	    height: 144px;
+		background-color: black;
+       }
+.header-inner{
+	        width: 992px;
+			height: 144px;
+			margin:0 auto;
+	    } 
+.header-inner img{
+               margin-top: 26px;
+}
+.nav{
+	        float: right;
+	        margin-top: -56px;
+					
+ }
+ .nav a{
+ 	margin-left: 20px;
+ }
+ .two,.three,.four,.fifth,.six{
+ 	        color: white;
+			text-decoration: none;
+ }
+ .one{
+ 	        color: #cc2700;
+		    text-decoration: none;
+ }

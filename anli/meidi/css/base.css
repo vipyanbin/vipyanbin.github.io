@@ -1,0 +1,83 @@
+/* CSS Document */
+
+/*********************************reset*************************************/
+		html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		  margin: 0;
+		  padding: 0;
+		  border: 0;
+		  font-size: 100%;
+		  vertical-align: baseline;
+		  outline: none;
+		  -webkit-box-sizing: border-box;
+		  -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+		}
+		html { height: 100%; }
+		
+		body { background: none repeat scroll 0 0 #FFFFFF;font-size: 12px; line-height: 120%; font-family:  "寰蒋闆呴粦",Tahoma,Helvetica,Arial,sans-serif; color:#555; }
+		ol, ul { list-style: none; }
+		ul li{float:left;}
+		a { text-decoration: none;color: #555;}
+		
+/*********************************reset end*************************************/
+/*********************************base*************************************/
+	/*layout*/
+	.w1400{width: 1400px;margin: 0 auto;}
+	.w1200{width: 1200px;margin: 0 auto;position: relative;}
+	.w1000{width: 1000px;margin: 0 auto;}
+	.w725 {width: 725px;margin: 0 auto;}
+	.w724 {width: 724px;margin: 0 auto;}
+	.w710 {width: 710px;margin: 0 auto;}
+	.w265 {width: 240px;margin: 0 auto;}
+	.wd100 {width: 100%;}
+	
+	/**/
+	.hide {display: none;}
+	.fl {float:left;}
+	.fr {float:right;}
+	.mr15 {margin-right: 15px;}
+	.mr10 {margin-right: 10px;}
+	.mr20 {margin-right: 20px;}
+	.mt20 {margin-top: 20px;}
+	.mr0 {margin-right: 0px;}
+	.mb20 {margin-bottom: 20px;}
+	.mb10 {margin-bottom: 10px;}
+	.fs16 {font-size: 16px;}
+	.fs18 {font-size: 18px;}
+	.fs20 {font-size: 20px;}
+	.fs25 {font-size: 25px;}
+	.bold {font-weight: bold;}
+	.td-lt{text-decoration:line-through;}
+	/*color*/
+	.red1 {color: #b92535;}
+	.red2 {color: #da0000;}
+	.red3 {color: #e50000;}
+	.red4 {color: #ff1600;}
+	.red5 { color: #f80303; }
+	.black {color: #000;}
+	.grey {color: #5c5c5c;}
+	.grey1 {color: #424242;}
+	.yellow {color: #ed6c00;}
+	.yellow1 {color: #ed6d1f;}
+	.yellow2 {color: #ec6c1f;}
+	.yellow3 {color: #ff8200;}
+	.blue {color: #007abe;}
+	.blue1 {color: #2d567f;}
+	.blue2 {color: #007ABE;}
+	.white {color:#FFF;}
+	.bg-color1 {background-color: #fef0bd;}
+	.bg-color2 {background-color: #f6f6f6;}
+
+	.dpib {display: inline-block;}
+	.ptr {position: relative; }
+	
+	/*select*/
+	.select{width:100px;height: 20px;margin: 0 5px;display: inline-block;position: relative;}
+	.select input{width: 100%;height: 100%;}
+	.select .select-img {top:2px;right:-3px;position: absolute;float: right;}
+	/*clearfix*/
+	.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+	.clearfix { display: inline-block; }
+	html[xmlns] .clearfix { display: block; }
+	*html .clearfix { height: 1%; }
+/*********************************base end*************************************/

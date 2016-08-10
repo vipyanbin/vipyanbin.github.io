@@ -1,0 +1,27 @@
+.banner{
+	height: 346px;
+	background-image: url(tp/bk.png);
+}
+.banner-inner{
+	width: 944px;
+	height: 346px;
+	margin:0 auto;
+}
+.banner-bt{     color: white;
+				font-weight: bold;
+				padding-top: 65px;
+				font-size: 28px;
+			}
+	.banner-inner p{
+		  padding-top: 20px;
+		  color: #7f7b6b;
+		  font-size: 10px;
+	}
+	.an img{
+				padding-top: 29px;
+	}	
+	.mz img{
+		float: right;
+		margin-top: -300px;
+		margin-right: -70px;
+	}		

@@ -1,0 +1,676 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<META http-equiv=Content-Type content="text/html; charset=utf-8">
+		 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+<script type="text/javascript">
+/*判断浏览器 edit by liuhui 20141125*/
+function IsPC()  
+{
+var userAgentInfo = navigator.userAgent;  
+var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");  
+var flag = true;  
+for (var v = 0; v < Agents.length; v++) {  
+if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }  
+}  
+return flag;  
+}
+if(!IsPC()){
+self.location.href="http://www.midea.com/cn/";
+}
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/pages.css" />
+<link rel="stylesheet" type="text/css" href="/source/jquery.fancybox.css?v=2.1.5" />
+<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
+<link rel="stylesheet" type="text/css" href="css/nivo-slider.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.multiSelect.css" />
+<link rel="stylesheet" type="text/css" href="themes/default/default.css" />
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/jquery.multiSelect.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+<script type="text/javascript" src="js/flowplayer-3.2.12.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/function.js"></script>
+<script type="text/javascript" src="js/move.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="js/service.js"></script>
+<script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/jquery.select.js"></script>
+<script type="text/javascript" src="js/ajaxfileupload.js"></script>
+<script type="text/javascript" src="js/jquery.area.js"></script>
+<script type="text/javascript" src="js/area.js"></script>
+<title>美的，中国家电行业领导者</title>
+		<link href="images/favicon.ico" rel="shortcut icon">
+		<meta name="baidu-site-verification" content="snOyr0hNFB" />
+		<meta name="google-site-verification" content="7vVsJaQin1PjM7pxj4fSCnyErWETGCcwGo7SKdmJqr0" />
+				
+		<style type="text/css">
+			.news {height: 100%;}
+			.news-prev, .news-next{top:40%;}
+			.header-ul li span.colorblue{color:#007abe;}
+		</style>
+		<script type="text/javascript">
+			(function($){
+				$(window).load(function(){
+				
+				$("#join-txt-main").mCustomScrollbar({
+						scrollButtons:{
+							enable:true
+						},
+						theme:"light-thick"
+				});
+				$('#content').height($(document).height()-60);
+				$('.ilb-item').hover(function() {
+					$(this).find('.info-l-bottom-a').addClass('current');
+					$(this).find('.ilb-company').stop().slideDown('400');
+				}, function() {
+					
+					$(this).find('.ilb-company').slideUp('400',function(){
+						$('.info-l-bottom-a').removeClass('current');
+					});
+				});
+			});
+			})(jQuery);
+			jQuery(function(){
+				$('.header-ul a span').hover(function(){
+					$(this).addClass('colorblue');
+				},
+				function(){
+					$(this).removeClass('colorblue');
+				});
+				$('.search-a').click(function(){
+					$('#search-form').submit();
+				});
+			});
+		</script>
+
+	</head>
+	<body>
+		<!-- header start-->
+		<div id="header">
+			<div class="header-top">
+				<div class="w1000" style="padding:0px;">
+					<div class="logo"><a href="index.html"><img src="images/logo.png" alt="美的电器"></a></div>
+					<div class="line-blue fl">
+						<div class="griphook-container">
+							<div class="line-blue"></div>
+							<div class="circle"></div>
+						</div>
+					</div>
+					<div class="info clearfix">
+						<div class="info-l fl">
+							<div class="info-l-top">
+								<a class="open-search fr" href="javascript:void(0)"><img src="images/btn/icon_search.jpg" alt="搜索" /></a>
+								
+															</div>
+							<div class="info-l-bottom">
+								<ul>
+						
+								
+									
+									<li class="ilb-item info-l-bottom-item" style="_margin-top:6px;">
+										<a class="info-l-bottom-a" href="javascript:void(0)" style="display: inline-block; margin-top: 0px;"><img src="images/btn/icon_car.jpg" alt="商城" />商城</a>
+										<ul class="ilb-company">
+											<li><a href="http://mall.midea.com/?mtag=40005.1.1"  target="_blank"><img style="vertical-align: text-bottom;" src="images/pic/lb.ico"	alt="官方商城">官方商城</a></li>
+											<li><a href="https://mideakt.tmall.com/?spm=a1z10.3-b.1997427721.d4918089.30ukTI"  target="_blank"><img style="vertical-align: text-bottom;" src="images/pic/tm.ico" alt="天猫商城">天猫商城</a></li>
+											
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="info-r fr"><a class="close-search" href="javascript:void(0)"><img src="images/btn/icon_close.jpg" alt="关闭"></a></div>
+					</div>
+				
+				</div>
+
+			</div>
+			
+			<!--头部导航 -->
+			<div class="header-nav">
+				<div class="header-nav-title">
+					<div class="w1000" style="padding:0px;">
+						<ul>
+						    <li class="current"><a class="header-nav-title-0" href="javascript:void(0)">网站导航</a></li>
+							<li ><a class="header-nav-title-1" href="javascript:void(0)">招贤纳士</a></li>
+							<li><a class="header-nav-title-2" href="javascript:void(0)">招商加盟</a></li>
+							<li><a class="header-nav-title-3" href="javascript:void(0)">工程销售</a></li>
+							<li><a class="header-nav-title-4" href="javascript:void(0)">友情链接</a></li>
+							
+							<li><a target="_blank" href="#">供应商门户网</a></li>
+							<li><a target="_blank" href="source/HTML/login/web.html">企业登录</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header-nav-content">
+					<div class="header-nav-main-overlay"></div>
+					<div class="header-nav-main">
+						<div class="w1000 header-nav-main-content">
+							<ul class="header-nav-main-ul">
+							<li class="header-nav-main-li">
+									<div class="map w1000">
+										<ul>
+											<li class="w180">
+									            <h1><a class="map-item-t" href="javascript:void(0)">+美的商城</a></h1>
+									            <a class="map-item-a" href="#">空调</a>
+									            <a class="map-item-a" href="#">冰箱</a>
+									            <a class="map-item-a" href="#">洗衣机</a>
+									            <a class="map-item-a" href="#">厨房小电</a>
+									            <a class="map-item-a" href="source/HTML/1/1.html">厨房大电</a>
+									            <a class="map-item-a" href="#">生活家电</a>
+									            <a class="map-item-a" href="#">热水器</a>
+									            <a class="map-item-a" href="#">净水机</a>
+									            <a class="map-item-a" href="#">配件及周边</a>
+									           
+											<li class="w90" style="width: 91px;">
+												<h1><a class="map-item-t" href="#">+客户服务</a></h1>
+												<a class="map-item-a" href="#">服务品牌</a>
+												<a class="map-item-a" href="#">服务预约</a>
+												<a class="map-item-a" href="#">自助服务</a>
+												<a class="map-item-a" href="#">客户体验区</a>
+												<a class="map-item-a" href="#">会员管理区</a>
+											</li>
+											<li class="w90" style="width: 91px;">
+												<h1><a class="map-item-t" href="#">+投资者关系</a></h1>
+												<a class="map-item-a" href="#">定期报告</a>
+												<a class="map-item-a" href="#">公告/通告</a>
+												<a class="map-item-a" href="#">视频采访</a>
+												<a class="map-item-a" href="#">联系董秘</a>
+											</li>
+											<li class="w90" style="width: 91px;">
+												<h1><a class="map-item-t" href="#">+招商加盟</a></h1>
+												<a class="map-item-a" href="#">千店工程</a>
+												<a class="map-item-a" href="#">专卖店网络</a>
+												<a class="map-item-a" href="#">经典案例</a>
+											</li>
+											<li class="w90" style="width: 91px;">
+												<h1><a class="map-item-t"  href="#">+新闻中心</a></h1>
+												<a class="map-item-a" href="#">企业动态</a>
+												<a class="map-item-a" href="#">媒体聚焦</a>
+												<a class="map-item-a" href="#">市场活动</a>
+												<a class="map-item-a" href="#">专题共享</a>
+												<a class="map-item-a" href="#">广告欣赏</a>
+												<a class="map-item-a" href="#">企业相册</a>
+												<a class="map-item-a" href="#">视频新闻</a>
+											</li>
+											<li class="w90" style="width: 91px;">
+												<h1><a class="map-item-t" href="#">美的品牌</a></h1>
+												<a class="map-item-a" href="#">公司介绍</a>
+												<a class="map-item-a" href="#">企业文化</a>
+												<a class="map-item-a" href="#">发展历程</a>
+												<a class="map-item-a" href="#">品牌内蕴</a>
+												<a class="map-item-a" href="#">荣誉殿堂</a>
+												<a class="map-item-a" href="#">厨源</a>
+												<a class="map-item-a" href="#">董事长寄语</a>
+											</li>
+											<li class="w90" style="width: 91px;">
+												<h1><a class="map-item-t" href="#">+工程销售</a></h1>
+												<a class="map-item-a" href="#">工程理念</a>
+												<a class="map-item-a" href="#">工程服务</a>
+												<a class="map-item-a" href="#">经典案例</a>
+												<a class="map-item-a" href="#">战略合作</a>
+											</li>
+											<li class="w90" style="border:none;width: 91px;">
+												<h1><a class="map-item-t" href="#">+招贤纳士</a></h1>
+												<a class="map-item-a" href="#">社会招聘</a>
+												<a class="map-item-a" href="#">校园招聘</a>
+												<a class="map-item-a" href="#">美的生活</a>
+												<a class="map-item-a" href="#">成长之路</a>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="header-nav-main-li">
+									<div class="job w1000">
+										<ul>
+                                        	<li>
+                                            	<div class="tupian"><a  href="#" class="readmore" target="_blank"><img src="images/pic/1.jpg" alt="社会招聘"></img></a></div>
+                                                <div class="bottom">
+                                                	<a  href="#" class="readmore fr" target="_blank">
+                                                		<img src="images/pic/read1.jpg">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                            	<div class="tupian"><a  href="#" class="readmore" target="_blank"><img src="images/pic/2.jpg" alt="校园招聘"/></a></div>
+                                                <div class="bottom">
+                                                	<a  href="#" class="readmore fr" target="_blank">
+                                                		<img src="images/pic/read2.jpg">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                            	<div class="tupian"><a  href="#" class="readmore" target="_blank"><img src="images/pic/3.jpg" alt="美的生活"/></a></div>
+                                                <div class="bottom">
+                                               		<a  href="#" class="readmore fr" target="_blank">
+                                                		<img src="images/pic/read3.jpg">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li style="margin-right:0px;">
+                                            	<div class="tupian"><a  href="#" class="readmore" target="_blank"><img src="images/pic/4.jpg" alt="成长之路"/></a></div>
+                                                <div class="bottom">
+                                                	<a  href="#" class="readmore fr" target="_blank">
+                                                		<img src="images/pic/read4.jpg">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>		
+									</div>
+								</li>
+								<li class="header-nav-main-li">
+									<div class="job w1000">
+										<ul>
+											<li>
+                                            	<div class="tupian"><a href="#"><img src="images/bg/ui_join_qdgc2.jpg" alt="千店工程"/></a></div>
+                                                <div class="bottom">
+                                                	<a  href="#" class="readmore fr" target="_blank">
+                                                		<img src="images/pic/read1.jpg"/>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                            	<div class="tupian"><a href="#"><img src="images/bg/ui_join_zmdw2.jpg" alt="专卖店网络"/></a></div>
+                                                <div class="bottom">
+                                                	<a  href="#" class="readmore fr" target="_blank">
+                                                		<img src="images/pic/read1.jpg"/>
+                                                    </a>
+                                                </div>
+                                            </li>
+											<li>
+                                            	<div class="tupian"><a href="#"><img src="images/bg/ui_join_zmdfc2.jpg" alt="专卖店风采"/></a></div>
+                                                <div class="bottom">
+                                                	<a  href="#" class="readmore fr" target="_blank">
+                                                		<img src="images/pic/read1.jpg"/>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li style="margin-right:0px;">
+                                            	<div class="tupian"><a href="#"><img src="images/bg/ui_join_zmdsp2.jpg" alt="专卖店视频"/></a></div>
+                                                <div class="bottom">
+                                                	<a  href="#" class="readmore fr" target="_blank">
+                                                		<img src="images/pic/read1.jpg"/>
+                                                    </a>
+                                                </div>
+                                            </li>
+										</ul>
+									</div>
+								</li>
+								<li class="header-nav-main-li">
+									<div class="job w1000">
+										<ul>
+											<li>
+                                            	<div class="tupian"><a href="#"><img src="images/bg/ui_sales_gcln.jpg" alt="工程理念"/></a></div>
+                                                <div class="bottom">
+                                                	<a  href="#" class="readmore fr" target="_blank">
+                                                		<img src="images/pic/read1.jpg"/>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                            	<div class="tupian"><a href="#"><img src="images/bg/ui_sales_gcfw.jpg" alt="工程服务"/></a></div>
+                                                <div class="bottom">
+                                                	<a  href="#" class="readmore fr" target="_blank">
+                                                		<img src="images/pic/read1.jpg"/>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                            	<div class="tupian"><a href="#"><img src="images/bg/ui_sales_jdal.jpg" alt="经典案例"/></a></div>
+                                                <div class="bottom">
+                                                	<a  href="#" class="readmore fr" target="_blank">
+                                                		<img src="images/pic/read1.jpg"/>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li style="margin-right:0px;">
+                                            	<div class="tupian"><a href="#"><img src="images/bg/ui_sales_zlhz.jpg" alt="战略合作"/></a></div>
+                                                <div class="bottom">
+                                                	<a  href="#" class="readmore fr" target="_blank">
+                                                		<img src="images/pic/read1.jpg"/>
+                                                    </a>
+                                                </div>
+                                            </li>
+										</ul>
+									</div>
+								</li>
+								<li class="header-nav-main-li">
+							        							         <div class="link w1000">
+							          <ul>
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://www.mqkitchen.com/"><img src="images/20131210/d042be1b4b72c110d21287b3dad13867.jpg" alt="名气厨房"></a></li>
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://www.nbond.cn/"><img src="images/20131210/9b7da66eb5bb0e80c82e88fd2bfde5ce.jpg" alt="诺邦无纺布"></a></li>
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://www.amblem.com.cn/"><img src="images/20131210/6f0ca67289d79eb35d19decbc0a08453.jpg" alt="安泊橱柜"></a></li>
+							           							           
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://www.gome.com.cn/mall/area"><img src="images/20131210/53c3bce66e43be4f209556518c2fcb54.jpg" alt="国美电器"></a></li>
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://www.five-star.cn/"><img src="images/20131210/486fbd761bfa5400722324fdc9822adc.jpg" alt="五星电器"></a></li>
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://www.gzhengda.com.cn/"><img src="images/20131210/8c26d2fad09dc76f3ff36b6ea752b0e1.jpg" alt="恒大地产"></a></li>
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://www.agile.com.cn/agile/we"><img src="images/20131210/c6224c1be072bf5556817749c32e40c6.jpg" alt="雅乐居"></a></li>
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://hopson.focus.cn/"><img src="images/20131210/0c12278389532e91c601af4c8adef7fc.jpg" alt="合生创产"></a></li>
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://www.gdpr.com/"><img src="images/20131210/370bfb31abd222b582245b977ea5f25a.jpg" alt="珠江投资"></a></li>
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://www.jrjkg.com.cn/default."><img src="images/20131210/0e16366727185813f59d4a9467878901.jpg" alt="金融街控股"></a></li>
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://www.cmhk.com/index.html"><img src="images/20131210/0e98aeeb54acf612b9eb4e48a269814c.jpg" alt="招商地产"></a></li>
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://jiancai.jiaju.sina.com.cn"><img src="images/20131210/78e092e6f3d8a7b10a82c6abd756d748.jpg" alt="新浪家居"></a></li>
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://www.360buy.com"><img src="images/20131210/b8b9c74ac526fffbeb2d39ab038d1cd7.jpg" alt="京东商城"></a></li>
+							           							            <li><a  rel="external nofollow" target="_blank" href="http://www.cnsuning.com/"><img src="images/20131210/aba54c23d97bf1321a4275e21d615112.jpg" alt="苏宁电器"></a></li>
+							           							          </ul>
+							         </div>
+							   
+							</ul>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<!-- 搜索块-->
+			<div class="header-search">
+				<div class="header-search-main w1000" style="_padding:10px 0px 10px 40px;">
+					<div class="header-pic fl"><img src="images/pic/pic_01.jpg" alt="快速搜索"></div>
+					<div class="header-ul fl">
+						<ul>
+							<li><a href="#" ><span>空调</span></a></li>
+							<li><a href="#" ><span>冰箱</span></a></li>
+							<li><a href="#" ><span>洗衣机</span></a></li>
+							<li><a href="#" ><span>厨房小电</span></a></li>
+							<li><a href="source/HTML/1/1.html" ><span>厨房大电</span></a></li>
+							<li><a href="#" ><span>生活家电</span></a></li>
+							<li><a href="#" ><span>热水器</span></a></li>
+							<li><a href="#" ><span>净水机</span></a></li>
+							<li><a href="#" ><span>配件及周边</span></a></li>
+						</ul>
+					</div>
+					<div class="header-search-input clearfix">
+						<form id="search-form" action="/Search/search.html" method="post">
+							<input type="text" name="title" class="search-input" />
+							<a class="search-a" href="javascript:void(0)"><img src="images/btn/btn_search.jpg" /></a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- header end-->
+		<!-- content start-->
+		<style type="text/css">
+			#content { background: url("../../images/bg/main.jpg")  no-repeat scroll center 0 transparent;}
+			.news {margin-top: 145px;}
+
+</style>
+<script type="text/javascript">
+		(function($){
+			$(window).load(function(){
+			
+			$("#join-txt-main").mCustomScrollbar({
+					scrollButtons:{
+						enable:true
+					},
+					theme:"light-thick"
+				});
+			$('#content').height($(document).height()-120);
+		});
+		})(jQuery);
+		
+
+		
+</script>
+	<style type="text/css">
+			body{ overflow: hidden;}
+			img.fp_preview {
+			    left: 0;
+			    position: absolute;
+			    top: 0;
+			    width: 100%;
+			}
+			#content { background: none; }
+</style>
+<script type="text/javascript">
+			 $(function() {
+			 	//var dWid = window.screen.width;
+				//var current			= -1;
+				$('#num').children().eq(0).css({'background':'url(images/dotsFocus.png) no-repeat center'});
+				var current			= 1;
+				var _thumbScroller =  $('.index-imgs-box');
+				var nmb_thumbs	= $('.index-imgs-box img').size();
+				
+				for(var i=0;i<nmb_thumbs;++i){
+					var $thumb = $('.index-imgs-box').find('img:nth-child('+parseInt(i)+')');
+					$('<img/>').load(function(){
+							 $('#content').children('img:first').fadeIn('2000', function() {
+							 });
+					}).attr({'src':$thumb.attr('src')});
+					
+				}
+				var timer = setInterval(showNext,10000);
+				$(".num").click(function(){
+					var index = $("#num a").index($(this)); 
+				
+					current = index;
+					showNext();
+				});
+				function showNext(){
+					++current;
+					
+					
+					
+					if( current == _thumbScroller.find('img').size()+1 ){
+						
+						current = 1;
+						var $e_next	= $('.index-imgs-box img').first();
+					}else{
+						var $e_next	= _thumbScroller.find('img:nth-child('+current+')');
+					}
+					
+					$('<img class="fp_preview"/>').load(function(){
+						var $newimg 		= $(this);
+						var $currImage 		= $('#content').children('img:first');
+						$newimg.insertBefore($currImage);
+						$currImage.fadeOut(2000,function(){$(this).remove();});
+					}).attr(
+							{
+								'title':$e_next.attr('title'),
+								'cursor':$e_next.attr('pointer'),
+								'src':$e_next.attr('src'),
+								}
+							);
+					$('#num').children().css({'background':'url(images/dots.png) no-repeat center'});
+					$('#num').children().eq(current-1).css({'background':'url(images/dotsFocus.png) no-repeat center'});
+					
+					
+				}
+				//主页banner
+				 $('#content').height($(document).height()-60);
+				 
+				if($('#content').height() > 640){
+					$('.banner').css('top');
+				}
+				$('.banner-out').click(function(event) {
+					$('.banner').animate({'right':-4}, 400,function(){
+						$('.banner-out').hide();
+						$('.banner-in').show();
+					});
+				});
+				$('.banner-in').click(function(event) {
+					$('.banner').animate({'right':-260}, 400,function(){
+						$('.banner-out').show();
+						$('.banner-in').hide();
+					});
+					
+				});
+				//banner滚动
+				$('.banner-list ul').css('height',$('.banner-list ul li').size()*140);
+				$('.banner-main-up').click(function(event) {
+					var _ele =  $(this).nextAll('.banner-list').find('ul');
+					var height = parseInt(_ele.css('height'));
+					var top = parseInt(_ele.css('top'));
+					if(top%140 != 0){ return;}
+					top = top + 140;
+					if(top <= 0){
+						_ele.animate({'top': top}, 400,'jswing');
+					}
+				});
+				$('.banner-main-down').click(function(event) {
+					var _ele =  $(this).nextAll('.banner-list').find('ul');
+					var height = parseInt(_ele.css('height'));
+					var top = parseInt(_ele.css('top'));
+					if(top%140 != 0){ return;}
+					top = top -140;
+					if(top >= -(height-140*3)){
+						_ele.animate({'top': top}, 400,'jswing');
+					}
+					
+				});
+
+				 $(document).on('click', '.fp_preview', function() {
+					 if($(this).attr('title')!='www.robam.com' && $(this).attr('title')!='http://www.robam.com' ){
+							window.open($(this).attr('title'));
+							}
+			        });
+				
+			});
+</script>
+<script type="text/javascript">
+$(window).ready(function(){
+ $('.index-zxhd').css('top',$(document.body).height()-270);
+ $('.index-zxhd').css('right','-283px');
+});
+
+</script>
+<!-- content start-->		
+		<div id="content" style="margin-top:50px;_margin-top:0px; overflow:hidden;">
+			<div class="content-overlay hide"></div>
+
+				<div id="num" style="bottom:50px;right:20px;width:250px;height:15px;/*background:blue;*/z-index:9;position:absolute;">
+											<a class="num" style="background:url(images/dots.png) no-repeat center;width:10px;height:10px;display:inline-block;fload:left;margin-left:8px;" href="javascript:void(0)"></a>
+						
+											<a class="num" style="background:url(images/dots.png) no-repeat center;width:10px;height:10px;display:inline-block;fload:left;margin-left:8px;" href="javascript:void(0)"></a>
+						
+											<a class="num" style="background:url(images/dots.png) no-repeat center;width:10px;height:10px;display:inline-block;fload:left;margin-left:8px;" href="javascript:void(0)"></a>
+						
+											<a class="num" style="background:url(images/dots.png) no-repeat center;width:10px;height:10px;display:inline-block;fload:left;margin-left:8px;" href="javascript:void(0)"></a>
+						
+									</div>
+				<img src="images/Home/7648557e5c7f1ecd407347dde3bd9927.jpg" class="fp_preview" title="#" style="display:none;cursor: pointer;" />
+			<div id="fp_loading" class="fp_loading"></div>
+			<div class="index-imgs-box hide">
+							<img src="images/Home/7648557e5c7f1ecd407347dde3bd9927.jpg"  title="#" class="fp_preview" style="display:none;cursor:pointer;" />
+							<img src="images/Home/f998fe2862e4dbab7e4d18de41d02d3b.jpg"  title="#" class="fp_preview" style="display:none;cursor:pointer;" />
+							<img src="images/Home/e9dae45ec08b498f7e1af247757c9b35.jpg"  title="#" class="fp_preview" style="display:none;cursor:pointer;" />
+							<img src="images/Home/6aadca7bd86c4743e6724f9607256126.jpg"  title="#" class="fp_preview" style="display:none;cursor:pointer;" />
+						</div>
+			<div class="banner">
+				<a class="banner-out" href="javascript:void(0)"><img src="images/btn/index_banner.png" /></a>
+				<a class="banner-in hide" href="javascript:void(0)"><img src="images/btn/index_banner_right.png" /></a>
+				<div class="banner-main">
+					<a class="banner-main-up" href="javascript:void(0)"><img src="images/btn/icon_up.png" /></a>
+					<a class="banner-main-down" href="javascript:void(0)"><img src="images/btn/icon_down.png" /></a>
+					<div class="banner-list">
+						<ul>
+															<li><a  target="_blank" href="#"><img width=155 height=100 src="images/20131210/bcc0d400288793e8bdcd7c19a8ac0c2b.jpg" /><p>12.12品牌盛典<span> >> </span></p></a></li>
+													</ul>						
+					</div>
+				</div>
+			</div>
+			<div class="index-main w1200">
+				<div class="w1000">
+					<div class="index-zxhd"  style='display:none;'>
+						<div class="index-tip">最新活动</div>
+												<a class="index-main-prev a-grey" href="javascript:void(0)"><</a>
+												<a class="index-main-next a-grey" href="javascript:void(0)">></a>
+						<div class="index-gallery">
+							<ul class="index-gallery-items">
+																	<li><a  target="_blank" href="#"><img width=214 height=150 src="images/20131210/bcc0d400288793e8bdcd7c19a8ac0c2b.jpg"></a><p>12.12品牌盛典</p></li>
+															</ul>
+							<h1 class="index-gallery-nav">
+								<a class="index-a current" href="javascript:void(0)">•</a>
+															</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- content end-->
+<!-- footer -->
+	<div id="footer">
+      
+        <div id="menu_w">
+          <ul id="nav_w">
+            <li class="mainlevel"><a href="/Kitchenappliance/Sets.html">美的电器</a>
+              <ul class="sub_nav_01" style="_width:880px; _left:0px;">
+              	<li><a href="#">配件及周边</a></li>
+                <li><a href="#">冰箱</a></li>
+                <li><a href="#">洗衣机</a></li>
+                <li><a href="#">厨房小电</a></li>
+                <li><a href="source/HTML/1/1.html">厨房大电</a></li>
+                <li><a href="#">生活家电</a></li>
+                <li><a href="#">热水器</a></li>
+                <li><a href="#">净水机</a></li>
+              </ul>
+      		 </li>
+            <li class="mainlevel"><a href="#">客户服务</a>
+              <ul class="sub_nav_01" style="_width:400px; _left:88px;">
+                <li><a href="#">服务品牌</a></li>
+                <li><a href="#">服务预约</a></li>
+                <li><a href="#">自助服务</a></li>
+                <li><a href="#">客户体验区</a></li>
+                <li><a href="#">会员管理区</a></li>
+              </ul>
+            </li>
+            <li class="mainlevel"><a href="#">新闻中心</a>
+              <ul class="sub_nav_01" style="_width:560px; _left:176px;">
+                <li><a href="#">企业动态</a></li>
+                <li><a href="#">媒体聚焦</a></li>
+                <li><a href="#">市场活动</a></li>
+                <li><a href="#">专题共享</a></li>
+                <li><a href="#">广告欣赏</a></li>
+                <li><a href="#">企业相册</a></li>
+                <li><a href="#">视频新闻</a></li>
+              </ul>
+            </li>
+            <li class="mainlevel"><a href="#">美的品牌</a>
+              <ul class="sub_nav_01" style="_width:560px; _left:264px;">
+                <li><a href="#">企业简介</a></li>
+                <li><a href="#">企业文化</a></li>
+                <li><a href="#">发展历程</a></li>
+                <li><a href="#">品牌内蕴</a></li>
+                <li><a href="#">荣誉殿堂</a></li>
+                <li><a href="#">厨源</a></li>
+                <li><a href="#">董事长寄语</a></li>
+              </ul>
+            </li>
+            <li class="mainlevel"><a href="#">投资者关系</a>
+              <ul class="sub_nav_01" style="_width:320px; _left:352px;">
+                <li><a href="#">定期报告</a></li>
+                <li><a href="#">通告/公告</a></li>
+                <li><a href="#">视频采访</a></li>
+                <li><a href="#">联系董秘</a></li>
+              </ul>
+            </li>
+            <li class="mainlevel"><a href="#">联系我们</a></li>
+          </ul>
+        </div>
+		<div class="power">
+			<div class="power-container">
+				<div class="fl">
+				<p>©2010 Hangzhou Robam Industrial Group Co., Ltd. All rights
+					reserved. <a style="color: #999999"  href="#">隐私声明</a></p>
+				</div>
+				<div class="fr">
+					<p>全国服务热线：<span class="fs18" style="color:#007abe;">54188-54188</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- footer end -->
+		<!-- content end-->
+		<!--cnzz analyse by liuhui 2014-10-27 -->
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253477904'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1253477904%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+		
+	</body>
+</html>
